@@ -1,0 +1,16 @@
+
+.content-wrapper{
+   display: flex;
+   height: 100%;
+}
+
+.menu{
+    width: 250px;
+    height: 100%;
+}
+
+.content{
+    flex: 1;
+    background-color: grey;
+   height: 100%;
+}

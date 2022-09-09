@@ -1,0 +1,10 @@
+.category{
+    height: 70px;
+    background-color: #f4b41a;
+    box-shadow:  -5px 5px 8px #797979,
+             5px -5px 8px #ffffff;
+}
+.button{
+    background-color: #143d59; 
+    border-color: white;
+}
