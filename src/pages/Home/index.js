@@ -14,16 +14,10 @@ const Home = () => {
     dispatch(addCart(token, result));
   };
 
-  // const hapusToken = () => {
-  //   setInterval(() => {
-  //     localStorage.clear();
-  //   }, 600000);
-  // };
-
   useEffect(() => {
     dispatch(productsAction());
     getData();
-  }, [dispatch]);
+  });
 
   return (
     <div>

@@ -27,7 +27,7 @@ const Login = () => {
 
   useEffect(() => {
     cekToken();
-  }, []);
+  });
 
   return (
     <div className="wrapper-login" style={{ display: "flex", height: "100vh" }}>
